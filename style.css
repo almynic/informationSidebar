@@ -1,0 +1,60 @@
+body {
+ margin: 0; 
+ padding: 0;
+ background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.information-right-sidebar {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.information-box {
+    width: 60px;
+    right: 10px;
+    height: 60px;
+    display: flex;
+}
+
+
+.information-title {
+    min-width: 140px;
+    height: 24px;
+    padding: 8px;
+    color: white;
+}
+
+.information-bg-secondary {
+    background-color: #FFA500;
+}
+
+.information-bg-primary {
+    background-color: #000000;
+}
+
+.information-box:hover {
+    width: 560px;
+}
+
+.information-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.information-body {
+    display: none;
+    padding: 5px;
+}
+
+.information-box:hover .information-body  {
+    display: block;
+    width: 400px;
+    min-height: 160px;
+    background-color: #e8e8e8;
+    margin-left: 10px;
+}
